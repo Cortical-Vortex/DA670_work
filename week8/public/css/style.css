@@ -1,0 +1,38 @@
+body{
+	color: #fa8c8c;
+	margin: 4em 2em;
+	padding: 0.25em;
+	background-color: #3366ff;
+}
+h3{
+	margin: 2em 1em;
+	padding: 0.25em;
+}
+.questions{
+	margin: 4em 2em;
+	padding: 0.25em;
+}
+label{
+	font-weight: bold;
+	display: block;
+	float: left;
+	width: 10em;
+	clear:left;	
+}
+input.piece{
+	width: 10em;
+	height: 2em;
+	border: 2px solid #80ff00;
+	padding: 0.25em;
+	
+}
+.blank{
+	display: block;
+	float: left;
+	clear: right;
+}
+.button{
+	float:left;
+	clear:both;
+	margin: 1em;
+}
