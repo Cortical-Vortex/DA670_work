@@ -1,0 +1,22 @@
+body{
+	color: #fa8c8c;
+	margin: 4em 2em;
+	padding: 0.25em;
+	background-color: #3366ff;
+}
+.questions{
+	margin: 4em 2em;
+	padding: 0.25em;
+}
+label{
+	font-weight: bold;
+	display: block;
+	float: left;
+	width: 10em;
+	clear:left;	
+}
+.button{
+	float:left;
+	clear:both;
+	margin: 1em;
+}
