@@ -1,0 +1,100 @@
+html { 
+  background: url(/images/background.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+html,body{
+	margin: 0;
+	padding:0;
+}
+
+header {
+	background:rgba(0,0,200,0.5);
+}
+
+header h1{
+	font: 25px/35px Helvetica, Arial, sans-serif;
+	padding: 3px;
+	color: #ffff00;
+	text-shadow: .07em .07em #a82525;
+}
+
+nav {
+	width:100%;
+	background:rgba(0,0,150,0.5);
+}
+nav ul {	
+	padding: 15px;
+	left: 0;
+	width:100%;
+}
+
+nav li{
+	display: inline;
+	padding:0;
+	padding-right: 20px;
+	text-transform: uppercase;
+}
+
+nav a{	 
+	font: 15px/21px Helvetica, Arial, sans-serif;
+	color: #ffff00;
+	text-shadow: .07em .07em 400000;
+}
+
+nav a:hover{
+	color: #ff0000;
+}
+
+#intro {
+    margin-top: 15px;
+    padding: 25px;
+    background:rgba(0,0,100,0.5);
+    background-size: 100%;
+}
+
+#intro h2, #intro p {
+    width: 600px;
+    margin: 20;
+}
+ 
+#intro h2 {
+    font: 20px/28px Helvetica, Arial, sans-serif;
+    color: #ffff00;
+    padding: 25px;
+    text-shadow: .07em .07em #a82525;
+    font-weight: normal
+}
+ 
+#intro p {
+    padding: 0;
+    margin: 0 auto;
+    color: #ff3300;
+}
+
+#content {
+    display: table;
+}
+
+.content{
+	font: 17px/24px Helvetica, Arial, sans-serif;
+    color: #ff6600;
+    padding: 12px;
+    text-shadow: .07em .07em #a82525;
+    font-weight: normal
+}
+
+footer{
+	position:absolute;
+	bottom:0;
+	padding: .5em 2rem;
+	background:rgba(0,0,200,0.5);
+	width: 100%;
+	font: 17px/24px Helvetica, Arial, sans-serif;
+    color: #ffff00;
+    padding: 12px;
+    text-shadow: .07em .07em #a82525;
+    font-weight: normal
+}
